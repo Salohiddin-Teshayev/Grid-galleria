@@ -1,0 +1,253 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/libre-baskerville-v14-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* libre-baskerville-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Libre Baskerville';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/libre-baskerville-v14-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+* {
+   -webkit-box-sizing: border-box;
+           box-sizing: border-box;
+}
+body {
+  font-family: "libre-baskerville", "arial", sans-serif;
+  font-weight: 700;
+}
+html {
+  height: 100%;
+}
+img {
+  display: block;
+  height: auto;
+}
+.container {
+  max-width: 1390px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+.galleria {
+  padding-bottom: 311px;
+}
+.galleria-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 0;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.galleria-link {
+  text-decoration: none;
+}
+.galleria-text {
+  color: #7d7d7d;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2.571px;
+  margin: 0;
+}
+.galleria-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 310px 40px 310px 40px 310px 40px 310px;
+  grid-template-columns: repeat(4, 310px);
+  -ms-grid-rows: 200px 40px 200px 40px 200px 40px 200px 40px 200px 40px 200px 40px 200px;
+  grid-template-rows: 200px 200px 200px 200px 200px 200px 200px;
+  gap: 40px;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.galleria-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 33px 62px 33px 32px;
+  background-image: url("../images/1rasm1.png");
+  background-repeat: no-repeat;
+  background-position: 100%;
+  }
+  .list-item-title {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+  .list-item-text {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 400;
+    margin: 0;
+  }
+  .child2{
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 2;
+    grid-row: 2 / 4;
+    background-image: url("../images/rasm5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  .child3{
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 3;
+    grid-row: 4 / 7;
+    background-image: url("../images/rasm9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  .child4{
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    grid-row: 7 / 8;
+    background-image: url("../images/rasm13.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  .child5{
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1 / 3;
+    background-image: url("../images/2rasm2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }.child6{
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3 / 4;
+    background-image: url("../images/rasm6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  .child7{
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 2;
+    grid-row: 4 / 6;
+    background-image: url("../images/rasm10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  .child8{
+    -ms-grid-row: 6;
+    -ms-grid-row-span: 2;
+    grid-row: 6 / 8;
+    background-image: url("../images/rasm14.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  .child9{
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / 2;
+    background-image: url("../images/rasm3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  .child10 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 3;
+    grid-row: 2 / 5;
+    background-image: url("../images/rasm7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  .child11 {
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 2;
+    grid-row: 5 / 7;
+    background-image: url("../images/rasm11.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  .child12{
+    -ms-grid-row: 7;
+    -ms-grid-row-span: 1;
+    grid-row: 7 / 8;
+    background-image: url("../images/rasm8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  .child13 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+    grid-row: 1 / 3;
+    background-image: url("../images/rasm4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  .child14 {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3 / 4;
+    background-image: url("../images/rasm8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  .child15{
+    -ms-grid-row: 4;
+    -ms-grid-row-span: 1;
+    grid-row: 4 / 5;
+    background-image: url("../images/rasm15.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  .child16{
+    -ms-grid-row: 5;
+    -ms-grid-row-span: 3;
+    grid-row: 5 / 8;
+    background-image: url("../images/rasm12.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
